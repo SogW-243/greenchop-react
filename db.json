@@ -1,0 +1,33 @@
+{
+  "products": [],
+  "articles": [],
+  "cart": [
+    {
+      "id": "cbf4",
+      "productId": 3,
+      "name": "Combo Quán ăn",
+      "description": "1 Thùng 3000 đôi",
+      "price": 1800000,
+      "image": "/src/assets/images/Gamepad.png",
+      "quantity": 3
+    },
+    {
+      "id": "841d",
+      "productId": 6,
+      "name": "Combo",
+      "description": "1 Thùng 300 đôi",
+      "price": 180000,
+      "image": "/src/assets/images/Gamepad.png",
+      "quantity": 2
+    },
+    {
+      "id": "4831",
+      "productId": 1,
+      "name": "Combo",
+      "description": "1 Thùng 1000 đôi",
+      "price": 600000,
+      "image": "/src/assets/images/Donut.png",
+      "quantity": 1
+    }
+  ]
+}
