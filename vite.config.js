@@ -6,6 +6,7 @@ import path from "path"; // <--- Thêm dòng này
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: "/greenchop-react/",
   resolve: {
     // <--- Thêm toàn bộ khối "resolve" này
     alias: {
