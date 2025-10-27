@@ -7,7 +7,7 @@ const HomeContactSection = () => (
       <div className="flex flex-col gap-10 xl:gap-0 md:flex-row bg-white rounded-lg overflow-hidden">
         <div className="md:w-1/2 flex items-center justify-center p-1">
           <img
-            src="images/contact-image.png"
+            src={`${import.meta.env.BASE_URL}images/contact-image.png`}
             alt="Contact"
             className="w-full h-auto object-cover max-w-md"
           />
