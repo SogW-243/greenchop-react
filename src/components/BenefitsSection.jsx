@@ -6,35 +6,35 @@ import React from "react";
 
 const benefitsData = [
   {
-    img: "/images/benefits-img1.png",
+    img: "images/benefits-img1.png",
     title: "Chất liệu an toàn",
     description:
       "Phần đầu đũa được làm bằng bằng gỗ tre, đảm bảo cho sức khỏe người dùng",
   },
   {
-    img: "/images/benefits-img2.png",
+    img: "images/benefits-img2.png",
     title: "Vệ sinh và khử khuẩn",
     description:
       "Đầu đũa mới 100% mỗi bữa ăn, không chung đụng đầu đũa với bất kì ai khác.",
   },
   {
-    img: "/images/benefits-img3.png",
+    img: "images/benefits-img3.png",
     title: "Tiện lợi",
     description: "Thao tác tháo lắp nhanh gọn và đơn giản",
   },
   {
-    img: "/images/benefits-img4.png",
+    img: "images/benefits-img4.png",
     title: "Tiết kiệm",
     description: "Giá thành đầu đũa cạnh tranh và hợp lý.",
   },
   {
-    img: "/images/benefits-img5.png",
+    img: "images/benefits-img5.png",
     title: "Độc quyền",
     description:
       "GreenChop là sản phẩm đũa thay đầu duy nhất trên thị trường Việt Nam hiện tại",
   },
   {
-    img: "/images/benefits-img6.png",
+    img: "images/benefits-img6.png",
     title: "Giao hàng nhanh",
     description: "Giao hàng trong 24h",
   },
