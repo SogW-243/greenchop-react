@@ -102,9 +102,8 @@ const Footer = () => {
       <div className="container mx-auto flex justify-between items-center py-4 px-3 xl:px-44">
         <a href="#">
           <img
-            src={`${
-              import.meta.env.BASE_URL
-            }images/footer-logo.png" alt="Bộ Công Thương`}
+            src={`${import.meta.env.BASE_URL}images/footer-logo.png`}
+            alt="Bộ Công Thương"
           />
         </a>
         <div className="flex gap-4 ">
