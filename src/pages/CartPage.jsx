@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react"; // 1. ĐÃ THÊM useEffect
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import CartImage from "@/assets/images/cart-img.png";
+
 import { X, Plus, Minus } from "lucide-react";
 
 // Import Redux
@@ -9,11 +9,11 @@ import {
   fetchCartItems,
   updateCartItemQuantity,
   removeCartItem,
-} from "@/features/cart/cartSlice";
+} from "../features/cart/cartSlice";
 
 // Import Popups
-import OrderPopup from "@/components/OrderPopup";
-import SuccessPopup from "@/components/SuccessPopup";
+import OrderPopup from "../components/OrderPopup";
+import SuccessPopup from "../components/SuccessPopup";
 
 // 2. ĐÃ XÓA KHỐI DỮ LIỆU GIẢ (const cartItems = [...])
 
@@ -134,7 +134,7 @@ const CartPage = () => {
                         >
                           <div className="w-20 h-20 bg-gray-100 rounded-md flex items-center justify-center">
                             <img
-                              src={item.image || CartImage} // Dùng ảnh thật nếu có
+                              src={item.image || "images/cart-img.png"}
                               alt={item.name}
                               className="h-16"
                             />

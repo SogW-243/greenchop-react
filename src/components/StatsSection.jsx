@@ -1,7 +1,5 @@
 // src/components/StatsSection.jsx
 import React from "react";
-import StatsIconPeach from "@/assets/images/gc-stats__icon bg-peach.png";
-import StatsIconGreen from "@/assets/images/gc-stats__icon bg-green.png";
 
 const StatsSection = () => {
   return (
@@ -11,7 +9,7 @@ const StatsSection = () => {
           <div className="relative w-60 h-72 bg-white rounded-md shadow-lg p-9 mt-6 text-center">
             <div className="absolute -top-1/4 -left-[17%] w-44 h-44 bg-green-100 rounded-full -z-10"></div>
             <img
-              src={StatsIconPeach}
+              src="images/gc-stats__icon bg-peach.png"
               alt="Icon"
               className="w-16 h-16 mx-auto"
             />
@@ -20,7 +18,7 @@ const StatsSection = () => {
           </div>
           <div className="relative w-60 lg:w-72 h-72 lg:h-80 bg-white rounded-md shadow-lg p-9 text-center">
             <img
-              src={StatsIconGreen}
+              src="images/gc-stats__icon bg-green.png"
               alt="Icon"
               className="w-16 h-16 mx-auto"
             />
@@ -30,7 +28,7 @@ const StatsSection = () => {
           <div className="relative w-60 h-72 bg-white rounded-md shadow-lg p-9 mt-6 text-center">
             <div className="absolute top-[54%] left-[41%] w-44 h-44 bg-orange-100 rounded-full -z-10"></div>
             <img
-              src={StatsIconPeach}
+              src="images/gc-stats__icon bg-peach.png"
               alt="Icon"
               className="w-16 h-16 mx-auto"
             />

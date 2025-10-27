@@ -3,44 +3,38 @@
 import React from "react";
 
 // Import images
-import benefitImg1 from "../assets/images/benefits-img1.png";
-import benefitImg2 from "../assets/images/benefits-img2.png";
-import benefitImg3 from "../assets/images/benefits-img3.png";
-import benefitImg4 from "../assets/images/benefits-img4.png";
-import benefitImg5 from "../assets/images/benefits-img5.png";
-import benefitImg6 from "../assets/images/benefits-img6.png";
 
 const benefitsData = [
   {
-    img: benefitImg1,
+    img: "images/benefits-img1.png",
     title: "Chất liệu an toàn",
     description:
       "Phần đầu đũa được làm bằng bằng gỗ tre, đảm bảo cho sức khỏe người dùng",
   },
   {
-    img: benefitImg2,
+    img: "images/benefits-img2.png",
     title: "Vệ sinh và khử khuẩn",
     description:
       "Đầu đũa mới 100% mỗi bữa ăn, không chung đụng đầu đũa với bất kì ai khác.",
   },
   {
-    img: benefitImg3,
+    img: "images/benefits-img3.png",
     title: "Tiện lợi",
     description: "Thao tác tháo lắp nhanh gọn và đơn giản",
   },
   {
-    img: benefitImg4,
+    img: "images/benefits-img4.png",
     title: "Tiết kiệm",
     description: "Giá thành đầu đũa cạnh tranh và hợp lý.",
   },
   {
-    img: benefitImg5,
+    img: "images/benefits-img5.png",
     title: "Độc quyền",
     description:
       "GreenChop là sản phẩm đũa thay đầu duy nhất trên thị trường Việt Nam hiện tại",
   },
   {
-    img: benefitImg6,
+    img: "images/benefits-img6.png",
     title: "Giao hàng nhanh",
     description: "Giao hàng trong 24h",
   },

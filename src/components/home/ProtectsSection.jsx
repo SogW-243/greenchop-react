@@ -1,8 +1,5 @@
 // src/components/home/ProtectsSection.jsx
 import React from "react";
-import ProtectsItem1 from "@/assets/images/protects-item1.png";
-import ProtectsItem2 from "@/assets/images/protects-item2.png";
-import ProtectsItem3 from "@/assets/images/protects-item3.png";
 
 const ProtectsSection = () => {
   return (

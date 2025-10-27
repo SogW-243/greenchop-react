@@ -3,26 +3,21 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { addItemToCart } from "@/features/cart/cartSlice";
-
-// Import hình ảnh (giả sử bạn đã đặt chúng trong thư mục assets)
-import DonutImage from "../assets/images/Donut.png";
-import DiceImage from "../assets/images/Dice.png";
-import GamepadImage from "../assets/images/Gamepad.png";
+import { addItemToCart } from "../features/cart/cartSlice";
 
 const ProductCard = ({ product }) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   // Xác định màu nền và hình ảnh dựa trên ID hoặc một thuộc tính khác của sản phẩm
   let bgColorClass = "bg-[#FFBA94]";
-  let productImage = DonutImage;
+  let productImage = "images/Donut.png";
 
   if (product.id % 3 === 2) {
     bgColorClass = "bg-[#C5FFA8]";
-    productImage = DiceImage;
+    productImage = "images/Dice.png";
   } else if (product.id % 3 === 0) {
     bgColorClass = "bg-[#FFBA94]";
-    productImage = GamepadImage;
+    productImage = "images/Gamepad.png";
   }
 
   // 5. Tạo hàm xử lý khi nhấn nút

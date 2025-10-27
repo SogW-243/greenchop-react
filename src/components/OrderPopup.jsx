@@ -2,8 +2,6 @@
 
 import React, { useState } from "react";
 import { X, User, Mail, Phone } from "lucide-react";
-import HeroImage from "@/assets/images/hero-img.png";
-import HeroBackground from "@/assets/images/hero-background.png";
 
 // Nhận 3 props: isOpen để biết có hiển thị hay không, onClose để đóng, và onSubmit để báo đã submit
 const OrderPopup = ({ isOpen, onClose, onSubmit }) => {
@@ -117,17 +115,17 @@ const OrderPopup = ({ isOpen, onClose, onSubmit }) => {
         <div className="hidden lg:block lg:col-span-5 relative bg-[#DCFFCA] rounded-l-2xl h-full min-h-[500px]">
           <img
             className="absolute top-[18%] -left-[8%] w-[351px] h-[351px]"
-            src={HeroBackground}
+            src="images/hero-background.png"
             alt="Background Circle"
           />
           <img
             className="absolute top-[10%] -left-[13%] w-[430px] h-[430px] z-20"
-            src={HeroImage}
+            src="images/hero-img.png"
             alt="Chopsticks"
           />
           <img
             className="absolute top-[13%] -left-[17%] w-[430px] h-[430px] z-10 transform -rotate-[33deg]"
-            src={HeroImage}
+            src="images/hero-img.png"
             alt="Chopsticks"
           />
           <div className="absolute top-1/4 -right-8 text-8xl font-extrabold text-green-900 opacity-20 transform rotate-90 leading-none">

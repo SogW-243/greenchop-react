@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
-import Logo from "@/assets/images/Logo.png";
+
 import { Menu, ShoppingCart, Search, X } from "lucide-react";
 
 const Header = () => {
@@ -26,7 +26,7 @@ const Header = () => {
           <div className="w-1/4 lg:w-1/5 xl:w-1/8 shrink-0">
             <Link to="/" onClick={() => setIsMenuOpen(false)}>
               <img
-                src={Logo}
+                src="images/logo.png"
                 alt="GreenChop Logo"
                 className="max-w-full h-auto"
               />

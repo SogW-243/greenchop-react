@@ -3,15 +3,6 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 
-// Import hình ảnh
-import ArticleBannerImg from "../assets/images/article-img1.png";
-import CalendarIcon from "../assets/images/calendar.png";
-import PopularArticleImg2 from "../assets/images/article-img2.png";
-import PopularArticleImg3 from "../assets/images/article-img3.png";
-import PopularArticleImg4 from "../assets/images/article-img4.png";
-import PopularArticleImg5 from "../assets/images/article-img5.png";
-import PopularArticleImg6 from "../assets/images/article-img6.png";
-
 // Component Card cho bài viết ở sidebar
 const SidebarArticleCard = ({ image, title, link }) => {
   return (
@@ -113,7 +104,7 @@ Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh
                     {article.category}
                   </span>
                   <div className="flex items-center gap-2 text-gray-500">
-                    <img src={CalendarIcon} alt="calendar" />
+                    <img src="images/calendar.png" alt="calendar" />
                     <span>{article.date}</span>
                   </div>
                 </div>

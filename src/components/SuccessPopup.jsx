@@ -2,7 +2,6 @@
 
 import React from "react";
 import { X } from "lucide-react";
-import SuccessImage from "@/assets/images/pup-up__success.jpg"; // Đảm bảo bạn đã có ảnh này
 
 const SuccessPopup = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
@@ -21,7 +20,7 @@ const SuccessPopup = ({ isOpen, onClose }) => {
         </button>
 
         <img
-          src={SuccessImage}
+          src="images/pup-up__success.jpg"
           alt="Đặt hàng thành công"
           className="w-1/2 mx-auto mb-4"
         />

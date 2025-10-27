@@ -4,14 +4,8 @@ import React, { useState, useEffect } from "react";
 // 1. Import thêm Link và useNavigate, useParams
 import { Link, useParams, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { addItemToCart } from "@/features/cart/cartSlice";
-import { fetchProducts } from "@/features/product/productSlice";
-
-// Import hình ảnh
-import DonutImage from "../assets/images/Donut.png";
-import ItemImg1 from "../assets/images/item-img1.jpg";
-import ItemImg2 from "../assets/images/item-img2.jpg";
-import ItemImg3 from "../assets/images/item-img3.jpg";
+import { addItemToCart } from "../features/cart/cartSlice";
+import { fetchProducts } from "../features/product/productSlice";
 
 // Dữ liệu giả, sau này bạn sẽ fetch từ API dựa trên ID
 const dummyProduct = {
@@ -23,7 +17,12 @@ const dummyProduct = {
     "exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh",
   manufacturer: "GreenChop",
   category: "Đũa gỗ thay đầu",
-  images: [DonutImage, DonutImage, DonutImage, DonutImage],
+  images: [
+    "images/Donut.png",
+    "images/Donut.png",
+    "images/Donut.png",
+    "images/Donut.png",
+  ],
 };
 
 const ProductDetailPage = () => {
@@ -176,7 +175,7 @@ const ProductDetailPage = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-8">
                 <div className="flex flex-col items-center text-center">
                   <img
-                    src={ItemImg1}
+                    src="images/item-img1.jpg"
                     alt="Chất liệu xanh"
                     className="w-24 h-24 object-contain mb-4"
                   />
@@ -188,7 +187,7 @@ const ProductDetailPage = () => {
                 </div>
                 <div className="flex flex-col items-center text-center">
                   <img
-                    src={ItemImg2}
+                    src="images/item-img2.jpg"
                     alt="Vệ sinh và an toàn"
                     className="w-24 h-24 object-contain mb-4"
                   />
@@ -200,7 +199,7 @@ const ProductDetailPage = () => {
                 </div>
                 <div className="flex flex-col items-center text-center">
                   <img
-                    src={ItemImg3}
+                    src="images/item-img3.jpg"
                     alt="Tiện lợi"
                     className="w-24 h-24 object-contain mb-4"
                   />

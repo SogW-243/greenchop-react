@@ -1,7 +1,5 @@
 // src/components/home/StatsSection.jsx
 import React from "react";
-import StatsIconPeach from "@/assets/images/gc-stats__icon bg-peach.png";
-import StatsIconGreen from "@/assets/images/gc-stats__icon bg-green.png";
 
 const StatsSection = () => {
   return (

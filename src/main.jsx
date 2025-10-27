@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { Provider } from "react-redux";
-import { store } from "./app/store"; // Đường dẫn store của bạn
+import { store } from "./app/store";
 import App from "./App";
 import "./index.css";
 // 1. Import BrowserRouter

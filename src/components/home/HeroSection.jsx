@@ -1,7 +1,5 @@
 // src/components/home/HeroSection.jsx
 import React from "react";
-import HeroBackground from "@/assets/images/hero-background.png";
-import HeroImage from "@/assets/images/hero-img.png";
 
 const HeroSection = () => (
   <section className="hidden lg:flex items-center mb-24 overflow-hidden">

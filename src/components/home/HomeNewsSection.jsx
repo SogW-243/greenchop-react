@@ -1,10 +1,7 @@
 // src/components/home/HomeNewsSection.jsx
 import React from "react";
 import { Link } from "react-router-dom";
-import NewsImg1 from "@/assets/images/news-image1.png";
-import NewsImg2 from "@/assets/images/news-image2.png";
-import NewsImg3 from "@/assets/images/news-image3.png";
-import CalendarIcon from "@/assets/images/calendar.png";
+
 import { ChevronRight } from "lucide-react";
 
 const NewsCard = ({ image, title, link }) => (

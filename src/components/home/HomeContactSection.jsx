@@ -1,6 +1,5 @@
 // src/components/home/HomeContactSection.jsx
 import React from "react";
-import ContactImage from "@/assets/images/contact-image.png";
 
 const HomeContactSection = () => (
   <section className=" lg:pb-33">

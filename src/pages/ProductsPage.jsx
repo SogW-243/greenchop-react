@@ -1,23 +1,11 @@
 // src/pages/ProductsPage.jsx
 
 import React from "react";
-import ProductCard from "@/components/ProductCard";
-import BenefitsSection from "@/components/BenefitsSection";
-import HomeProductsSection from "@/components/home/HomeProductsSection";
-import ProtectsSection from "@/components/home/ProtectsSection";
+import ProductCard from "../components/ProductCard";
+import BenefitsSection from "../components/BenefitsSection";
+import HomeProductsSection from "../components/home/HomeProductsSection";
+import ProtectsSection from "../components/home/ProtectsSection";
 import { Quote } from "lucide-react";
-
-// Import hình ảnh cần thiết cho trang này
-import IntroImage from "@/assets/images/products-intro__img.png";
-import InstructImage from "@/assets/images/instruct-img.jpg";
-import RuleImage1 from "@/assets/images/rule-img1.png";
-import RuleImage2 from "@/assets/images/rule-img2.png";
-import Number1 from "@/assets/images/01.png";
-import Number2 from "@/assets/images/02.png";
-import Number3 from "@/assets/images/03.png";
-import Number4 from "@/assets/images/04.png";
-import PeachBackground from "@/assets/images/products-img__peach.jpg";
-import GreenBackground from "@/assets/images/products-img__green.jpg";
 
 // --- Các Section Con của Trang Sản Phẩm ---
 
@@ -27,7 +15,7 @@ const IntroSection = () => (
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-4 items-center">
         <div className="relative col-span-3">
           <img
-            src={GreenBackground}
+            src="images/products-img__green.jpg"
             alt="Green background"
             className="absolute -top-1/7 -left-1/10 w-1/4 -z-10"
           />
@@ -46,13 +34,13 @@ const IntroSection = () => (
         </div>
         <div className="relative col-span-2 flex justify-end mt-12 md:mt-0">
           <img
-            src={PeachBackground}
+            src="images/products-img__peach.jpg"
             alt="Peach background"
             className="absolute w-77 xl:w-88 -z-10 -top-18 md:left-99 lg:left-1 xl:left-36 "
           />
           <div className="bg-white p-4 shadow-2xl rounded-lg w-80 h-60 flex justify-center items-center">
             <img
-              src={IntroImage}
+              src="images/products-intro__img.png"
               alt="Giới thiệu sản phẩm"
               className="w-[90%]"
             />
@@ -102,7 +90,11 @@ const InstructSection = () => (
             className="flex items-start gap-4 relative justify-center"
           >
             <div className="absolute bg-[#FFF0E7] w-30 h-30 rounded-full -z-10 top-10 -translate-y-1/2 left-24 -translate-x-1/2"></div>
-            <img src={item.num} alt={index + 1} className="w-24 mt-1" />
+            <img
+              src={`images/0${index + 1}.png`}
+              alt={index + 1}
+              className="w-24 mt-1"
+            />
             <p className="text-sm text-gray-700 w-full">{item.text}</p>
           </div>
         ))}
@@ -122,7 +114,7 @@ const InstructSection = () => (
         </div>
         <div className="md:col-span-5">
           <img
-            src={InstructImage}
+            src="images/instruct-img.jpg"
             alt="Hướng dẫn sử dụng"
             className="rounded-lg shadow-lg w-full"
           />
@@ -145,7 +137,11 @@ const RuleSection = () => (
       <div className="relative flex flex-col md:flex-row items-center gap-16 mb-1 xl:mb-45">
         <Quote className="absolute top-full md:top-1/2 right-10 text-8xl text-gray-200 -z-10 hidden lg:block" />
         <div className="md:w-1/2">
-          <img src={RuleImage1} alt="Quy tắc 1" className="rounded-lg w-full" />
+          <img
+            src="images/rule-img1.png"
+            alt="Quy tắc 1"
+            className="rounded-lg w-full"
+          />
         </div>
         <div className="md:w-1/2 text-left">
           <p className="text-sm text-gray-700 leading-relaxed mb-44 xl:mb-50">
@@ -162,7 +158,11 @@ const RuleSection = () => (
       <div className="relative flex flex-col md:flex-row-reverse items-center gap-16">
         <Quote className="absolute top-full md:top-1/2 left-5 text-8xl text-gray-200 -z-10 hidden lg:block transform -scale-x-100" />
         <div className="md:w-1/2">
-          <img src={RuleImage2} alt="Quy tắc 2" className="rounded-lg w-full" />
+          <img
+            src="images/rule-img2.png"
+            alt="Quy tắc 2"
+            className="rounded-lg w-full"
+          />
         </div>
         <div className="md:w-1/2 text-left ">
           <p className="text-sm text-gray-700 leading-relaxed mb-1 xl:mb-50">
