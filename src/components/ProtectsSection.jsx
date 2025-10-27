@@ -10,15 +10,15 @@ const ProtectsSection = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex flex-col items-center">
-            <img src="images/protects-item1.png" alt="Bảo vệ 1" />
+            <img src="/images/protects-item1.png" alt="Bảo vệ 1" />
             <h3 className="font-bold mt-4">Bảo vệ bạn</h3>
           </div>
           <div className="flex flex-col items-center">
-            <img src="images/protects-item2.png" alt="Bảo vệ 2" />
+            <img src="/images/protects-item2.png" alt="Bảo vệ 2" />
             <h3 className="font-bold mt-4">Bảo vệ gia đình bạn</h3>
           </div>
           <div className="flex flex-col items-center">
-            <img src="images/protects-item3.png" alt="Bảo vệ 3" />
+            <img src="/images/protects-item3.png" alt="Bảo vệ 3" />
             <h3 className="font-bold mt-4">Bảo vệ cộng đồng</h3>
           </div>
         </div>

@@ -17,7 +17,7 @@ const ProtectsSection = () => {
         <div className="grid grid-cols-1 xl:grid-cols-3 gap-x-8 gap-y-33 md:gap-y-33 xl:gap-y-32 ">
           <div className="flex flex-col items-center relative w-[80%] mx-auto xl:w-full">
             <img
-              src="images/protects-item1.png"
+              src="/images/protects-item1.png"
               alt="Thân trên đũa"
               className="absolute -top-40 xl:-top-33 w-[120%] xl:w-full max-w-xs "
             />
@@ -33,7 +33,7 @@ const ProtectsSection = () => {
           </div>
           <div className="flex flex-col items-center relative">
             <img
-              src="images/protects-item2.png"
+              src="/images/protects-item2.png"
               alt="Đầu đũa"
               className="absolute -bottom-24 w-full max-w-xs -top-20 xl:-top-33"
             />
@@ -49,7 +49,7 @@ const ProtectsSection = () => {
           </div>
           <div className="flex flex-col items-center relative">
             <img
-              src="images/protects-item3.png"
+              src="/images/protects-item3.png"
               alt="Khớp Inox"
               className="absolute -bottom-24 w-full max-w-xs -top-20 xl:-top-33"
             />

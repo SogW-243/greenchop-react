@@ -16,7 +16,7 @@ const NewsCard = ({ image, title, link }) => (
     <div className="flex justify-between w-full text-sm text-gray-500 mb-2">
       <span className="text-[#46B20F]">Lorem ipsum</span>
       <div className="flex items-center gap-2">
-        <img src="images/calendar.png" alt="calendar" />
+        <img src="/images/calendar.png" alt="calendar" />
         <span>28 - 10- 2021</span>
       </div>
     </div>

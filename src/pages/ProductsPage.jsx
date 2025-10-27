@@ -15,7 +15,7 @@ const IntroSection = () => (
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-4 items-center">
         <div className="relative col-span-3">
           <img
-            src="images/products-img__green.jpg"
+            src="/images/products-img__green.jpg"
             alt="Green background"
             className="absolute -top-1/7 -left-1/10 w-1/4 -z-10"
           />
@@ -34,13 +34,13 @@ const IntroSection = () => (
         </div>
         <div className="relative col-span-2 flex justify-end mt-12 md:mt-0">
           <img
-            src="images/products-img__peach.jpg"
+            src="/images/products-img__peach.jpg"
             alt="Peach background"
             className="absolute w-77 xl:w-88 -z-10 -top-18 md:left-99 lg:left-1 xl:left-36 "
           />
           <div className="bg-white p-4 shadow-2xl rounded-lg w-80 h-60 flex justify-center items-center">
             <img
-              src="images/products-intro__img.png"
+              src="/images/products-intro__img.png"
               alt="Giới thiệu sản phẩm"
               className="w-[90%]"
             />
@@ -110,7 +110,7 @@ const InstructSection = () => (
         </div>
         <div className="md:col-span-5">
           <img
-            src="images/instruct-img.jpg"
+            src="/images/instruct-img.jpg"
             alt="Hướng dẫn sử dụng"
             className="rounded-lg shadow-lg w-full"
           />
@@ -134,7 +134,7 @@ const RuleSection = () => (
         <Quote className="absolute top-full md:top-1/2 right-10 text-8xl text-gray-200 -z-10 hidden lg:block" />
         <div className="md:w-1/2">
           <img
-            src="images/rule-img1.png"
+            src="/images/rule-img1.png"
             alt="Quy tắc 1"
             className="rounded-lg w-full"
           />
@@ -155,7 +155,7 @@ const RuleSection = () => (
         <Quote className="absolute top-full md:top-1/2 left-5 text-8xl text-gray-200 -z-10 hidden lg:block transform -scale-x-100" />
         <div className="md:w-1/2">
           <img
-            src="images/rule-img2.png"
+            src="/images/rule-img2.png"
             alt="Quy tắc 2"
             className="rounded-lg w-full"
           />
