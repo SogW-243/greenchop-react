@@ -69,19 +69,15 @@ const InstructSection = () => (
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-24 xl:gap-y-12 mb-24">
         {[
           {
-            num: Number1,
             text: "Tháo bọc đầu đũa, lấy đầu đũa tre đã khử trùng 100% ghép vào thân đũa, tạo thành một đôi đũa hoàn chỉnh.",
           },
           {
-            num: Number2,
             text: "Dùng bữa với đũa GreenChop đã ghép. Sau khi dùng bữa xong, tháo đầu đũa đã dùng để bỏ đi.",
           },
           {
-            num: Number3,
             text: "Giữ lại thân đũa, vệ sinh sạch sẽ để sử dụng cho những bữa ăn sau đó.",
           },
           {
-            num: Number4,
             text: "Tiếp tục sử dụng một đầu đũa mới để gắn vào thân đũa trong lần dùng bữa tiếp theo.",
           },
         ].map((item, index) => (
