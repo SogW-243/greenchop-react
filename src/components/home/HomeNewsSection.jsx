@@ -16,7 +16,10 @@ const NewsCard = ({ image, title, link }) => (
     <div className="flex justify-between w-full text-sm text-gray-500 mb-2">
       <span className="text-[#46B20F]">Lorem ipsum</span>
       <div className="flex items-center gap-2">
-        <img src="images/calendar.png" alt="calendar" />
+        <img
+          src={`${import.meta.env.BASE_URL}images/calendar.png`}
+          alt="calendar"
+        />
         <span>28 - 10- 2021</span>
       </div>
     </div>
@@ -42,17 +45,17 @@ const HomeNewsSection = () => (
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <NewsCard
-          image="images/news-image1.png"
+          image={`${import.meta.env.BASE_URL}images/news-image1.png`}
           title="Lorem ipsum dolor sit amet, cons in ectetuer adipiscing elit"
           link="/article/1"
         />
         <NewsCard
-          image="images/news-image2.png"
+          image={`${import.meta.env.BASE_URL}images/news-image2.png`}
           title="Lorem ipsum dolor sit amet, cons in ectetuer adipiscing elit"
           link="/article/1"
         />
         <NewsCard
-          image="images/news-image3.png"
+          image={`${import.meta.env.BASE_URL}images/news-image3.png`}
           title="Lorem ipsum dolor sit amet, cons in ectetuer adipiscing elit"
           link="/article/1"
         />

@@ -27,7 +27,7 @@ const ArticlePage = () => {
   // Dữ liệu giả, sau này sẽ fetch từ API dựa vào articleId
   const article = {
     title: "Exerci tation ullamcer suscipit m zril delenit augue",
-    image: "images/article-img1.png",
+    image: `${import.meta.env.BASE_URL}images/article-img1.png`,
     category: "Tin nổi bật",
     date: "28 - 10 - 2021",
     content: `exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
@@ -45,27 +45,27 @@ Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh
   const popularArticles = [
     {
       id: 2,
-      image: "images/article-img2.png",
+      image: `${import.meta.env.BASE_URL}images/article-img2.png`,
       title: "Cons ectetuer adipiscing elit, sed diam nonummy nibh",
     },
     {
       id: 3,
-      image: "images/article-img3.png",
+      image: `${import.meta.env.BASE_URL}images/article-img3.png`,
       title: "Cons ectetuer adipiscing elit, sed diam nonummy nibh",
     },
     {
       id: 4,
-      image: "images/article-img4.png",
+      image: `${import.meta.env.BASE_URL}images/article-img4.png`,
       title: "Cons ectetuer adipiscing elit, sed diam nonummy nibh",
     },
     {
       id: 5,
-      image: "images/article-img5.png",
+      image: `${import.meta.env.BASE_URL}images/article-img5.png`,
       title: "Cons ectetuer adipiscing elit, sed diam nonummy nibh",
     },
     {
       id: 6,
-      image: "images/article-img6.png",
+      image: `${import.meta.env.BASE_URL}images/article-img6.png`,
       title: "Cons ectetuer adipiscing elit, sed diam nonummy nibh",
     },
   ];
@@ -104,7 +104,10 @@ Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh
                     {article.category}
                   </span>
                   <div className="flex items-center gap-2 text-gray-500">
-                    <img src="images/calendar.png" alt="calendar" />
+                    <img
+                      src={`${import.meta.env.BASE_URL}images/calendar.png`}
+                      alt="calendar"
+                    />
                     <span>{article.date}</span>
                   </div>
                 </div>

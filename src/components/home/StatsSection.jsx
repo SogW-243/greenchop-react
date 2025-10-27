@@ -20,7 +20,9 @@ const StatsSection = () => {
           <div className="relative w-60 h-72 bg-white rounded-md shadow-lg p-9 mt-6 ">
             <div className="absolute -top-1/4 -left-[33%] w-44 h-44 bg-[#DCFFCA] rounded-full -z-10"></div>
             <img
-              src="images/gc-stats__icon bg-peach.png"
+              src={`${
+                import.meta.env.BASE_URL
+              }images/gc-stats__icon bg-peach.png`}
               alt="Icon"
               className="w-16 h-16 "
             />
@@ -31,7 +33,9 @@ const StatsSection = () => {
           </div>
           <div className="relative w-60 lg:w-72 h-72 lg:h-80 bg-white rounded-md shadow-lg p-12 ">
             <img
-              src="images/gc-stats__icon bg-green.png"
+              src={`${
+                import.meta.env.BASE_URL
+              }images/gc-stats__icon bg-green.png`}
               alt="Icon"
               className="w-16 h-16"
             />
@@ -43,7 +47,9 @@ const StatsSection = () => {
           <div className="relative w-60 h-72 bg-white rounded-md shadow-lg p-9 mt-6 ">
             <div className="absolute top-[72%] left-[63%] w-44 h-44 bg-[#FFD5BD] rounded-full -z-10"></div>
             <img
-              src="images/gc-stats__icon bg-peach.png"
+              src={`${
+                import.meta.env.BASE_URL
+              }images/gc-stats__icon bg-peach.png`}
               alt="Icon"
               className="w-16 h-16"
             />
