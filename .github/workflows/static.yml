@@ -45,6 +45,9 @@ jobs:
       # 4. Build dự án React (THÊM BƯỚC NÀY)
       - name: Build React App (Vite)
         run: npm run build # Lệnh này sẽ tạo ra thư mục 'dist'
+        # === THÊM BƯỚC NÀY ĐỂ XEM KẾT QUẢ BUILD ===
+      - name: Check built index.html
+        run: cat dist/index.html
 
       # 5. Cấu hình cho GitHub Pages
       - name: Setup Pages
