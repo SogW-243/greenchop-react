@@ -94,7 +94,7 @@ const NewsPage = () => {
           <div className="flex flex-col lg:flex-row items-center gap-8 mb-16 lg:mb-0">
             <div className="w-full lg:w-1/2">
               <img
-                src="images/news-image1.png"
+                src="images/gc-news__img1.png"
                 alt="Tin nổi bật 1"
                 className="rounded-lg w-full h-full object-cover"
               />
@@ -123,7 +123,7 @@ const NewsPage = () => {
           <div className="flex flex-col lg:flex-row-reverse items-center gap-8 lg:absolute lg:top-[60%] lg:left-1/2 lg:-translate-x-1/2 w-full lg:max-w-4xl">
             <div className="w-full lg:w-1/2">
               <img
-                src="images/news-image2.png"
+                src="images/gc-news__img2.png"
                 alt="Tin nổi bật 2"
                 className="rounded-lg w-full h-full object-cover"
               />
