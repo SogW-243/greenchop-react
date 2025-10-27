@@ -25,17 +25,17 @@ const HeroSection = () => (
         <div className="w-[45%] relative bg-[#DCFFCA] rounded-l-2xl h-[530px]">
           <img
             className="absolute top-[18%] -left-[8%] w-[351px] h-[351px]"
-            src={HeroBackground}
+            src="images/hero-background.png"
             alt="Background Circle"
           />
           <img
             className="absolute top-[10%] -left-[13%] w-[430px] h-[430px] z-20"
-            src={HeroImage}
+            src="images/hero-img.png"
             alt="Chopsticks"
           />
           <img
             className="absolute top-[13%] -left-[17%] w-[430px] h-[430px] z-10 transform -rotate-[33deg]"
-            src={HeroImage}
+            src="images/hero-img.png"
             alt="Chopsticks"
           />
           <div className="absolute top-1/4 -right-8 text-9xl font-extrabold text-green-900 opacity-20 transform rotate-90 leading-none">

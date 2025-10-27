@@ -1,7 +1,7 @@
 // src/components/home/HomeProductsSection.jsx
 
 import React from "react";
-import ProductCard from "@/components/ProductCard";
+import ProductCard from "../components/ProductCard";
 
 const HomeProductsSection = () => {
   // Đã cập nhật để bao gồm tất cả 6 sản phẩm

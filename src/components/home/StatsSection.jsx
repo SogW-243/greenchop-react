@@ -19,14 +19,22 @@ const StatsSection = () => {
         <div className="flex flex-col lg:flex-row justify-center items-center gap-8">
           <div className="relative w-60 h-72 bg-white rounded-md shadow-lg p-9 mt-6 ">
             <div className="absolute -top-1/4 -left-[33%] w-44 h-44 bg-[#DCFFCA] rounded-full -z-10"></div>
-            <img src={StatsIconPeach} alt="Icon" className="w-16 h-16 " />
+            <img
+              src="images/gc-stats__icon bg-peach.png"
+              alt="Icon"
+              className="w-16 h-16 "
+            />
             <h3 className="text-4xl font-extrabold my-4">1000+</h3>
             <p className="text-sm font-normal">
               Hộ gia đình tin dùng GreenChop
             </p>
           </div>
           <div className="relative w-60 lg:w-72 h-72 lg:h-80 bg-white rounded-md shadow-lg p-12 ">
-            <img src={StatsIconGreen} alt="Icon" className="w-16 h-16" />
+            <img
+              src="images/gc-stats__icon bg-green.png"
+              alt="Icon"
+              className="w-16 h-16"
+            />
             <h3 className="text-4xl font-extrabold my-4">600+</h3>
             <p className="text-sm font-normal">
               Nhà hàng đã phục vụ GreenChop cho thực khách
@@ -34,7 +42,11 @@ const StatsSection = () => {
           </div>
           <div className="relative w-60 h-72 bg-white rounded-md shadow-lg p-9 mt-6 ">
             <div className="absolute top-[72%] left-[63%] w-44 h-44 bg-[#FFD5BD] rounded-full -z-10"></div>
-            <img src={StatsIconPeach} alt="Icon" className="w-16 h-16" />
+            <img
+              src="images/gc-stats__icon bg-peach.png"
+              alt="Icon"
+              className="w-16 h-16"
+            />
             <h3 className="text-4xl font-extrabold my-4">20+</h3>
             <p className="text-sm font-normal">
               Tỉnh thành được GreenChop phủ sóng
