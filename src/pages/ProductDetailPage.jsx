@@ -175,7 +175,7 @@ const ProductDetailPage = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-8">
                 <div className="flex flex-col items-center text-center">
                   <img
-                    src="/images/item-img1.jpg"
+                    src="images/item-img1.jpg"
                     alt="Chất liệu xanh"
                     className="w-24 h-24 object-contain mb-4"
                   />
@@ -187,7 +187,7 @@ const ProductDetailPage = () => {
                 </div>
                 <div className="flex flex-col items-center text-center">
                   <img
-                    src="/images/item-img2.jpg"
+                    src="images/item-img2.jpg"
                     alt="Vệ sinh và an toàn"
                     className="w-24 h-24 object-contain mb-4"
                   />
@@ -199,7 +199,7 @@ const ProductDetailPage = () => {
                 </div>
                 <div className="flex flex-col items-center text-center">
                   <img
-                    src="/images/item-img3.jpg"
+                    src="images/item-img3.jpg"
                     alt="Tiện lợi"
                     className="w-24 h-24 object-contain mb-4"
                   />

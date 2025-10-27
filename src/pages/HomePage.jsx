@@ -9,7 +9,7 @@ import StatsSection from "../components/home/StatsSection";
 import HomeProductsSection from "../components/home/HomeProductsSection";
 import HomeNewsSection from "../components/home/HomeNewsSection";
 import ProtectsSection from "../components/home/ProtectsSection";
-import BenefitsSection from "../components/BenefitsSection"; // Tái sử dụng
+import BenefitsSection from "../components/BenefitsSection";
 import HomeContactSection from "../components/home/HomeContactSection";
 
 const HomePage = () => {

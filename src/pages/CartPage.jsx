@@ -134,7 +134,7 @@ const CartPage = () => {
                         >
                           <div className="w-20 h-20 bg-gray-100 rounded-md flex items-center justify-center">
                             <img
-                              src={item.image || "/images/cart-img.png"}
+                              src={item.image || "images/cart-img.png"}
                               alt={item.name}
                               className="h-16"
                             />
