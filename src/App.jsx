@@ -1,6 +1,7 @@
 // src/App.jsx
 
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 
 // Import các component Layout và Pages
 import Layout from "./components/Layout";
