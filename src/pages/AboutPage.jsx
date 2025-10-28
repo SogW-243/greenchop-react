@@ -34,10 +34,7 @@ const AboutPage = () => {
               </p>
             </div>
             <div className="lg:w-1/2">
-              <img
-                src={`${import.meta.env.BASE_URL}images/Greenchop-intro1.png`}
-                alt="Đối tác tin cậy"
-              />
+              <img src="images/Greenchop-intro1.png" alt="Đối tác tin cậy" />
             </div>
           </div>
           {/* Item 2 */}
@@ -59,7 +56,7 @@ const AboutPage = () => {
             </div>
             <div className="lg:w-1/2">
               <img
-                src={`${import.meta.env.BASE_URL}images/Greenchop-intro2.png`}
+                src="images/Greenchop-intro2.png"
                 alt="An toàn với Covid"
                 className="w-[339px] h-[280px] object-contain"
               />
@@ -76,7 +73,7 @@ const AboutPage = () => {
             </div>
             <div className="lg:w-1/2">
               <img
-                src={`${import.meta.env.BASE_URL}images/Greenchop-intro3.png`}
+                src="images/Greenchop-intro3.png"
                 alt="Đồng hành cùng gia đình"
                 className="w-[300px] h-[240px] object-contain"
               />
@@ -88,17 +85,17 @@ const AboutPage = () => {
       {/* Main Product Section */}
       <section className="relative mt-16 lg:mt-24 h-96 flex items-center justify-center text-white">
         <img
-          src={`${import.meta.env.BASE_URL}images/main-img.png`}
+          src="images/main-img.png"
           alt="Family eating"
           className="absolute w-full h-full object-cover -z-10 brightness-50"
         />
         <img
-          src={`${import.meta.env.BASE_URL}images/“.png`}
+          src="images/“.png`"
           alt="Quote"
           className="absolute top-2/3 left-[70%] hidden lg:block"
         />
         <img
-          src={`${import.meta.env.BASE_URL}images/“ (1).png`}
+          src="images/“ (1).png"
           alt="Quote"
           className="absolute top-1/4 left-1/5 hidden lg:block"
         />
@@ -126,7 +123,7 @@ const AboutPage = () => {
               <div className="absolute bg-[#DCFFCA] w-96 h-96 rounded-full -z-20 top-1/4 left-33 hidden lg:block"></div>
               <div className="absolute bg-[#FFD5BD] w-48 h-48 rounded-full -z-10 top-3/4 left-99 hidden lg:block"></div>
               <img
-                src={`${import.meta.env.BASE_URL}images/mission-img.jpg`}
+                src="images/mission-img.jpg"
                 alt="Our Mission"
                 className="rounded-lg shadow-2xl w-96 h-80 object-cover"
               />

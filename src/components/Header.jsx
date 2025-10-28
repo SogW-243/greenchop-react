@@ -26,7 +26,7 @@ const Header = () => {
           <div className="w-1/4 lg:w-1/5 xl:w-1/8 shrink-0">
             <Link to="/" onClick={() => setIsMenuOpen(false)}>
               <img
-                src={`${import.meta.env.BASE_URL}images/logo.png`}
+                src="images/logo.png"
                 alt="GreenChop Logo"
                 className="max-w-full h-auto"
               />

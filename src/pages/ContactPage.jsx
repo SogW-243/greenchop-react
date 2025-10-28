@@ -32,36 +32,24 @@ const ContactPage = () => {
               </h4>
               <div className="space-y-3 text-sm">
                 <div className="flex items-center gap-3">
-                  <img
-                    src={`${import.meta.env.BASE_URL}images/footer-clock.png`}
-                    alt="Clock"
-                  />
+                  <img src="images/footer-clock.png" alt="Clock" />
                   <span>Thứ 2 - Thứ 6</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <img
-                    src={`${import.meta.env.BASE_URL}images/footer-phone.png`}
-                    alt="Phone"
-                  />
+                  <img src="images/footer-phone.png" alt="Phone" />
                   <span>091 1717 222</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <img
-                    src={`${import.meta.env.BASE_URL}images/footer-mail.png`}
-                    alt="Mail"
-                  />
+                  <img src="images/footer-mail.png" alt="Mail" />
                   <p>greenchopvn@gmail.com</p>
                 </div>
                 <div className="flex items-center gap-3">
-                  <img
-                    src={`${import.meta.env.BASE_URL}images/footer-globe.png`}
-                    alt="Website"
-                  />
+                  <img src="images/footer-globe.png" alt="Website" />
                   <p>Greenchop.vn</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <img
-                    src={`${import.meta.env.BASE_URL}images/footer-map.png`}
+                    src="images/footer-map.png"
                     alt="Address"
                     className="mt-1"
                   />

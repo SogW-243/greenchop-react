@@ -20,7 +20,7 @@ const SuccessPopup = ({ isOpen, onClose }) => {
         </button>
 
         <img
-          src={`${import.meta.env.BASE_URL}images/pup-up__success.jpg`}
+          src="images/pup-up__success.jpg"
           alt="Đặt hàng thành công"
           className="w-1/2 mx-auto mb-4"
         />

@@ -115,17 +115,17 @@ const OrderPopup = ({ isOpen, onClose, onSubmit }) => {
         <div className="hidden lg:block lg:col-span-5 relative bg-[#DCFFCA] rounded-l-2xl h-full min-h-[500px]">
           <img
             className="absolute top-[18%] -left-[8%] w-[351px] h-[351px]"
-            src={`${import.meta.env.BASE_URL}images/hero-background.png`}
+            src="images/hero-background.png"
             alt="Background Circle"
           />
           <img
             className="absolute top-[10%] -left-[13%] w-[430px] h-[430px] z-20"
-            src={`${import.meta.env.BASE_URL}images/hero-img.png`}
+            src="images/hero-img.png"
             alt="Chopsticks"
           />
           <img
             className="absolute top-[13%] -left-[17%] w-[430px] h-[430px] z-10 transform -rotate-[33deg]"
-            src={`${import.meta.env.BASE_URL}images/hero-img.png`}
+            src="images/hero-img.png"
             alt="Chopsticks"
           />
           <div className="absolute top-1/4 -right-8 text-8xl font-extrabold text-green-900 opacity-20 transform rotate-90 leading-none">
