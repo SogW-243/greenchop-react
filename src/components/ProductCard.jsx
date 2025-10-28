@@ -28,7 +28,10 @@ const ProductCard = ({ product }) => {
       name: product.name,
       description: product.description,
       price: product.price,
-      image: product.image || productImage,
+      image: (product.image || productImage).replace(
+        import.meta.env.BASE_URL,
+        ""
+      ),
       quantity: 1, // Mặc định thêm 1 sản phẩm
     };
 
