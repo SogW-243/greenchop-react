@@ -19,7 +19,10 @@ const PopularArticleCard = ({ image, title, date }) => {
       <div className="flex justify-between items-center text-sm text-gray-500 mb-2">
         <span>Lorem ipsum</span>
         <div className="flex items-center gap-2">
-          <img src="images/calendar.png" alt="calendar" />
+          <img
+            src={`${import.meta.env.BASE_URL}images/calendar.png`}
+            alt="calendar"
+          />
           <span>{date}</span>
         </div>
       </div>
@@ -40,37 +43,37 @@ const NewsPage = () => {
   const popularArticles = [
     {
       id: 1,
-      image: "images/article-img1.png",
+      image: `${import.meta.env.BASE_URL}images/article-img1.png`,
       title: "Lorem ipsum dolor sit amet, cons in ectetuer adipiscing elit",
       date: "28 - 10- 2021",
     },
     {
       id: 2,
-      image: "images/article-img2.png",
+      image: `${import.meta.env.BASE_URL}images/article-img2.png`,
       title: "Lorem ipsum dolor sit amet, cons in ectetuer adipiscing elit",
       date: "28 - 10- 2021",
     },
     {
       id: 3,
-      image: "images/article-img3.png",
+      image: `${import.meta.env.BASE_URL}images/article-img3.png`,
       title: "Lorem ipsum dolor sit amet, cons in ectetuer adipiscing elit",
       date: "28 - 10- 2021",
     },
     {
       id: 4,
-      image: "images/article-img4.png",
+      image: `${import.meta.env.BASE_URL}images/article-img4.png`,
       title: "Lorem ipsum dolor sit amet, cons in ectetuer adipiscing elit",
       date: "28 - 10- 2021",
     },
     {
       id: 5,
-      image: "images/article-img5.png",
+      image: `${import.meta.env.BASE_URL}images/article-img5.png`,
       title: "Lorem ipsum dolor sit amet, cons in ectetuer adipiscing elit",
       date: "28 - 10- 2021",
     },
     {
       id: 6,
-      image: "images/article-img6.png",
+      image: `${import.meta.env.BASE_URL}images/article-img6.png`,
       title: "Lorem ipsum dolor sit amet, cons in ectetuer adipiscing elit",
       date: "28 - 10- 2021",
     },
@@ -94,7 +97,7 @@ const NewsPage = () => {
           <div className="flex flex-col lg:flex-row items-center gap-8 mb-16 lg:mb-0">
             <div className="w-full lg:w-1/2">
               <img
-                src="images/gc-news__img1.png"
+                src={`${import.meta.env.BASE_URL}images/gc-news__img1.png`}
                 alt="Tin nổi bật 1"
                 className="rounded-lg w-full h-full object-cover"
               />
@@ -123,7 +126,7 @@ const NewsPage = () => {
           <div className="flex flex-col lg:flex-row-reverse items-center gap-8 lg:absolute lg:top-[60%] lg:left-1/2 lg:-translate-x-1/2 w-full lg:max-w-4xl">
             <div className="w-full lg:w-1/2">
               <img
-                src="images/gc-news__img2.png"
+                src={`${import.meta.env.BASE_URL}images/gc-news__img2.png`}
                 alt="Tin nổi bật 2"
                 className="rounded-lg w-full h-full object-cover"
               />

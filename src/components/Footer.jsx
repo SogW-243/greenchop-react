@@ -25,7 +25,7 @@ const Footer = () => {
             {/* Logo & Slogan */}
             <div className="w-[50%] md:w-[80%] md:pt-6 xl:pt-0 xl:w-[80%]">
               <img
-                src="images/logo.png"
+                src={`${import.meta.env.BASE_URL}images/logo.png`}
                 alt="GreenChop Logo"
                 className="max-w-full h-auto"
               />
@@ -101,7 +101,10 @@ const Footer = () => {
       <div className="border-1 border-gray-500 mx-0 xl:mx-88"></div>
       <div className="container mx-auto flex justify-between items-center py-4 px-3 xl:px-44">
         <a href="#">
-          <img src="images/footer-logo.png" alt="Bộ Công Thương" />
+          <img
+            src={`${import.meta.env.BASE_URL}images/footer-logo.png`}
+            alt="Bộ Công Thương"
+          />
         </a>
         <div className="flex gap-4 ">
           <a href="#">

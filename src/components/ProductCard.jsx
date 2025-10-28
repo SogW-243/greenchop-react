@@ -10,14 +10,14 @@ const ProductCard = ({ product }) => {
   const navigate = useNavigate();
   // Xác định màu nền và hình ảnh dựa trên ID hoặc một thuộc tính khác của sản phẩm
   let bgColorClass = "bg-[#FFBA94]";
-  let productImage = "images/Donut.png";
+  let productImage = `${import.meta.env.BASE_URL}images/Donut.png`;
 
   if (product.id % 3 === 2) {
     bgColorClass = "bg-[#C5FFA8]";
-    productImage = "images/Dice.png";
+    productImage = `${import.meta.env.BASE_URL}images/Dice.png`;
   } else if (product.id % 3 === 0) {
     bgColorClass = "bg-[#FFBA94]";
-    productImage = "images/Gamepad.png";
+    productImage = `${import.meta.env.BASE_URL}images/Gamepad.png`;
   }
 
   // 5. Tạo hàm xử lý khi nhấn nút
@@ -28,8 +28,11 @@ const ProductCard = ({ product }) => {
       name: product.name,
       description: product.description,
       price: product.price,
-      image: productImage,
-      quantity: 1,
+      image: (product.image || productImage).replace(
+        import.meta.env.BASE_URL,
+        ""
+      ),
+      quantity: 1, // Mặc định thêm 1 sản phẩm
     };
 
     // Gửi action đến Redux
